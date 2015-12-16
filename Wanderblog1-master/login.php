@@ -24,7 +24,7 @@ echo "<p> starting session</p>";
 $error=''; // Variable To Store Error Message
 if (isset($_POST['email']) && isset($_POST['password'])){
     if (empty($_POST['email']) || empty($_POST['password'])) {
-        $error = "Email or Password is invalid";
+        $error = "Email or Passsword is invalid";
     }
     else {
         $error = "you're logged in";
